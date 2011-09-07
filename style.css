@@ -1,0 +1,15 @@
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+h1{
+    font-size: 200%;
+}
+
+ul.todo{
+    padding-left: 0;
+}
+ul.todo li{
+    list-style: none;
+}
