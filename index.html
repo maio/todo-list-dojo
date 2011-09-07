@@ -2,16 +2,19 @@
 <html lang="en">
 <head>
     <meta charset="utf-8" />
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
     <title>TODO List</title>
+    <link rel="stylesheet" href="http://meyerweb.com/eric/tools/css/reset/reset.css"></link>
     <link rel="stylesheet" href="style.css"></link>
+    <link rel="stylesheet" href="jasmine/jasmine.css"></link>
 </head>
 <body>
     <div id="main">
         <h1>TODO List</h1>
-        <h2>To do</h2>
-        <ul class="todo">
-        </ul>
+        <div class="unfinished">
+            <h2>To do</h2>
+            <ul>
+            </ul>
+        </div>
         <form>
             <input type="text" value="" />
             <input type="submit" value="Add task"/>
@@ -22,7 +25,12 @@
             <ul>
             </ul>
         </div>
-    </div>    
-    <script src="todo.js"></script>
+    </div>
 </body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.6.3/jquery.min.js"></script>
+<script src="jasmine/jasmine.js"></script>
+<script src="jasmine/jasmine-html.js"></script>    
+<script src="TodoList.js"></script>
+<script src="todo.js"></script>
+<script src="test.js"></script>
 </html>
